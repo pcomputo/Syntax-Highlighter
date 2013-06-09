@@ -45,7 +45,7 @@ namespace syntaxHighlighter
             string _head = @"(.h|conio|stdio|std|out|math|string|iostream|<|>|include|#|br|head|body)";    //pink
             Regex _hregex = new Regex(_head);
 
-            //string _comment = @"(//|//t|//n|//b|/*|*/)";   // grey  error marra chutiya
+            //string _comment = @"(//|//t|//n|//b|/*|*/)";   // grey  
             //Regex _cregex = new Regex(_comment); */
 
             MatchCollection _matchCollection = _regex.Matches(richTextBox1.Text);
